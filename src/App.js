@@ -42,7 +42,7 @@ setRightRoom({name:roomArr[index].name, type:roomArr[index].type, index:index})
    <h1>Smart house</h1>
 <BrowserRouter>
 <Routes>
-  <Route path='/' element={<Home openTheRightRoom={openTheRightRoom} roomArr={roomArr}/>}/>
+  <Route path='/smartHouse' element={<Home openTheRightRoom={openTheRightRoom} roomArr={roomArr}/>}/>
   <Route path='/addroom' element={<Addroom addToRoomArr={addToRoomArr}/>}/>
   <Route path="/addmachine" element={<AddMachine setRoomArr={setRoomArr} roomArr={roomArr} name={rightRoom.name} type={rightRoom.type} index={rightRoom.index}/>}/>
 
