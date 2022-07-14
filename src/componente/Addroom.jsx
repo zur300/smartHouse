@@ -43,7 +43,7 @@ export default function Addroom(props) {
             </select><br /><br />
             <input onChange={(elm) => { setName(elm.target.value) }} type="text" placeholder='שם החדר'></input><br /><br />
             <input onChange={(elm) => { setColor(elm.target.value) }} type="text" placeholder='צבע' /><br /><br />
-            <Link to='/'><button onClick={() => { validation(); checkIfToAddRoom() }}>צור</button></Link>
+            <Link to='/smartHouse'><button onClick={() => { validation(); checkIfToAddRoom() }}>צור</button></Link>
         </div>
     )
 }
